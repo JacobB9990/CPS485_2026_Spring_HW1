@@ -13,8 +13,8 @@ from tictactoe_engine import (
 # Import AI modules
 import Problem1.ai_player as ai1  # Level 1
 
-# import Problem1.ai_level2 as ai2
-# import Problem1.ai_level3 as ai3
+# import Problem2.ai_level2 as ai2
+# import Problem3.ai_level3 as ai3
 
 WIDTH, HEIGHT = 600, 700
 GRID_SIZE = 3
