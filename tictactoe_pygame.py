@@ -13,7 +13,7 @@ from tictactoe_engine import (
 # Import AI modules
 import Level1.ai_player as ai1  # Level 1
 import Level3.ai_level3 as ai3  # Level 3 
-# import Problem2.ai_level2 as ai2
+# import Level2.ai_level2 as ai2
 
 
 WIDTH, HEIGHT = 600, 700
