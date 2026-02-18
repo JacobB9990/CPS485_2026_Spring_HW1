@@ -13,7 +13,7 @@ from tictactoe_engine import (
 # Import AI modules
 import Level1.ai_player as ai1  # Level 1
 import Level3.ai_level3 as ai3  # Level 3 
-# import Level2.ai_level2 as ai2
+import Level2.start as ai2
 
 
 WIDTH, HEIGHT = 600, 700
@@ -144,7 +144,7 @@ def main():
     # Player types
     player_X_type = "AI"  # or "Human"
     player_O_type = "AI"  # or "Human"
-    ai_player_X = ai1
+    ai_player_X = ai2
     ai_player_O = ai3
     ai_level = 1
 
@@ -181,6 +181,10 @@ def main():
                     ai_level = 3
                     ai_player_X = ai3
                     ai_player_O = ai3
+                elif event.key == pygame.K_2:
+                    ai_level = 2
+                    ai_player_X = ai2
+                    ai_player_O = ai2
                 # Add keys for ai2/ai3 if needed
 
         # Determine current player type
